@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1159</width>
+    <height>660</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>130</y>
+     <width>101</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>26</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>登录</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>260</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>用户名：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>320</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>密码：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>460</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:repeat, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 139, 134, 255), stop:1 rgba(255, 255, 255, 255));
+    border: 2px solid rgb(255, 183, 184);
+    border-color: rgb(255, 130, 132);
+    border-radius: 20px; /* 设置圆角半径，数值可根据按钮大小调整 */
+}
+
+QPushButton:hover {
+    background-color: rgb(255, 174, 175); /* 设置鼠标悬停时的背景颜色 */
+    border: 2px solid rgb(255, 110, 112); /* 设置鼠标悬停时的边框颜色 */
+    color: black; /* 设置鼠标悬停时的文本颜色 */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* 设置鼠标悬停时的阴影效果 */
+    cursor: pointer; /* 设置鼠标悬停时的指针样式 */
+}</string>
+   </property>
+   <property name="text">
+    <string>进入</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>460</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:repeat, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 139, 134, 255), stop:1 rgba(255, 255, 255, 255));
+    border: 2px solid rgb(255, 183, 184);
+    border-color: rgb(255, 130, 132);
+    border-radius: 20px; /* 设置圆角半径，数值可根据按钮大小调整 */
+}
+
+QPushButton:hover {
+    background-color: rgb(255, 174, 175); /* 设置鼠标悬停时的背景颜色 */
+    border: 2px solid rgb(255, 110, 112); /* 设置鼠标悬停时的边框颜色 */
+    color: black; /* 设置鼠标悬停时的文本颜色 */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* 设置鼠标悬停时的阴影效果 */
+    cursor: pointer; /* 设置鼠标悬停时的指针样式 */
+}</string>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>270</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    background: transparent; /* 设置背景为透明 */
+    border: 2px solid rgb(255, 130, 132); /* 设置边框为粉色并且厚度为2px */
+    border-radius: 15px; /* 设置圆角半径，这里假设输入框高度为30px */
+}</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>330</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    background: transparent; /* 设置背景为透明 */
+    border: 2px solid rgb(255, 130, 132); /* 设置边框为粉色并且厚度为2px */
+    border-radius: 15px; /* 设置圆角半径，这里假设输入框高度为30px */
+}</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>login_()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>626</x>
+     <y>403</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>579</x>
+     <y>329</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>626</x>
+     <y>443</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>579</x>
+     <y>329</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>login_()</slot>
+ </slots>
+</ui>

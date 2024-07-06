@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1125</width>
+    <height>680</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>0</y>
+     <width>221</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>A路口监控区域</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>110</y>
+     <width>811</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>600</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:repeat, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 150, 145, 255), stop:1 rgba(255, 255, 255, 255));
+    border: 2px solid rgb(255, 170, 172);
+    border-color: rgb(255, 120, 122);
+    border-radius: 20px; /* 设置圆角半径，数值可根据按钮大小调整 */
+}
+
+QPushButton:hover {
+    background-color: rgb(255, 164, 165); /* 设置鼠标悬停时的背景颜色 */
+    border: 2px solid rgb(255, 100, 102); /* 设置鼠标悬停时的边框颜色 */
+    color: black; /* 设置鼠标悬停时的文本颜色 */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* 设置鼠标悬停时的阴影效果 */
+    cursor: pointer; /* 设置鼠标悬停时的指针样式 */
+}</string>
+   </property>
+   <property name="text">
+    <string>返回上一级</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-10</y>
+     <width>1141</width>
+     <height>691</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label_3</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>pushButton</zorder>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>fanhui()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1030</x>
+     <y>620</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>562</x>
+     <y>339</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>fanhui()</slot>
+ </slots>
+</ui>

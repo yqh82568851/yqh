@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1115</width>
+    <height>697</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Arial Narrow</family>
+    <weight>50</weight>
+    <italic>false</italic>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label2">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>110</y>
+     <width>621</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>28</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>欢迎进入A路口交通监控系统</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>460</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:repeat, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 139, 134, 255), stop:1 rgba(255, 255, 255, 255));
+    border: 2px solid rgb(255, 183, 184);
+    border-color: rgb(255, 130, 132);
+    border-radius: 20px; /* 设置圆角半径，数值可根据按钮大小调整 */
+}
+
+QPushButton:hover {
+    background-color: rgb(255, 174, 175); /* 设置鼠标悬停时的背景颜色 */
+    border: 2px solid rgb(255, 110, 112); /* 设置鼠标悬停时的边框颜色 */
+    color: black; /* 设置鼠标悬停时的文本颜色 */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* 设置鼠标悬停时的阴影效果 */
+    cursor: pointer; /* 设置鼠标悬停时的指针样式 */
+}</string>
+   </property>
+   <property name="text">
+    <string>进入监控</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>460</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:repeat, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 139, 134, 255), stop:1 rgba(255, 255, 255, 255));
+    border: 2px solid rgb(255, 183, 184);
+    border-color: rgb(255, 130, 132);
+    border-radius: 20px; /* 设置圆角半径，数值可根据按钮大小调整 */
+}
+
+QPushButton:hover {
+    background-color: rgb(255, 174, 175); /* 设置鼠标悬停时的背景颜色 */
+    border: 2px solid rgb(255, 110, 112); /* 设置鼠标悬停时的边框颜色 */
+    color: black; /* 设置鼠标悬停时的文本颜色 */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* 设置鼠标悬停时的阴影效果 */
+    cursor: pointer; /* 设置鼠标悬停时的指针样式 */
+}</string>
+   </property>
+   <property name="text">
+    <string>退出系统</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>520</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:repeat, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 139, 134, 255), stop:1 rgba(255, 255, 255, 255));
+    border: 2px solid rgb(255, 183, 184);
+    border-color: rgb(255, 130, 132);
+    border-radius: 20px; /* 设置圆角半径，数值可根据按钮大小调整 */
+}
+
+QPushButton:hover {
+    background-color: rgb(255, 174, 175); /* 设置鼠标悬停时的背景颜色 */
+    border: 2px solid rgb(255, 110, 112); /* 设置鼠标悬停时的边框颜色 */
+    color: black; /* 设置鼠标悬停时的文本颜色 */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* 设置鼠标悬停时的阴影效果 */
+    cursor: pointer; /* 设置鼠标悬停时的指针样式 */
+}</string>
+   </property>
+   <property name="text">
+    <string>车流量检测</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>520</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:repeat, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 139, 134, 255), stop:1 rgba(255, 255, 255, 255));
+    border: 2px solid rgb(255, 183, 184);
+    border-color: rgb(255, 130, 132);
+    border-radius: 20px; /* 设置圆角半径，数值可根据按钮大小调整 */
+}
+
+QPushButton:hover {
+    background-color: rgb(255, 174, 175); /* 设置鼠标悬停时的背景颜色 */
+    border: 2px solid rgb(255, 110, 112); /* 设置鼠标悬停时的边框颜色 */
+    color: black; /* 设置鼠标悬停时的文本颜色 */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* 设置鼠标悬停时的阴影效果 */
+    cursor: pointer; /* 设置鼠标悬停时的指针样式 */
+}</string>
+   </property>
+   <property name="text">
+    <string>人流量检测</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>440</y>
+     <width>371</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+	
+	
+	
+	
+    
+	
+    
+	border-color: rgb(255, 205, 208);
+    
+     border-radius: 25px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:repeat, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 139, 134, 255), stop:1 rgba(255, 255, 255, 255));
+    border: 2px solid rgb(255, 183, 184);
+    border-color: rgb(255, 130, 132);
+    border-radius: 20px; /* 设置圆角半径，数值可根据按钮大小调整 */
+}
+
+QPushButton:hover {
+    background-color: rgb(255, 174, 175); /* 设置鼠标悬停时的背景颜色 */
+    border: 2px solid rgb(255, 110, 112); /* 设置鼠标悬停时的边框颜色 */
+    color: black; /* 设置鼠标悬停时的文本颜色 */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* 设置鼠标悬停时的阴影效果 */
+    cursor: pointer; /* 设置鼠标悬停时的指针样式 */
+}</string>
+   </property>
+   <property name="text">
+    <string>返回登录</string>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>label2</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>pushButton_5</zorder>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>goin()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>140</x>
+     <y>575</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>539</x>
+     <y>348</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>goin2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>400</x>
+     <y>575</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>539</x>
+     <y>348</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>goin3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>670</x>
+     <y>575</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>539</x>
+     <y>348</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>930</x>
+     <y>575</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>539</x>
+     <y>348</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>goback()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>70</x>
+     <y>30</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>557</x>
+     <y>348</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>goin()</slot>
+  <slot>goin2()</slot>
+  <slot>goin3()</slot>
+  <slot>goin4()</slot>
+  <slot>goback()</slot>
+ </slots>
+</ui>
